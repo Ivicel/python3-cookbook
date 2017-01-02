@@ -135,7 +135,7 @@
 .. code-block:: python
 
     class SubPerson(Person):
-        @Person.getter
+        @Person.name.getter
         def name(self):
             print('Getting name')
             return super().name
